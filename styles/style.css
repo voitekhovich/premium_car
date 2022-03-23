@@ -1,0 +1,33 @@
+/* * {
+  border: 1px solid red ;
+} */
+
+.header {
+  background-color: #000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  color: #fff;
+}
+
+.logo__span {
+  background-color: #4A90E2;
+  border-radius: 3px;
+  margin: 3 5;
+}
+
+.menu__list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.search {
+  width: 16px;
+  height: 17px;
+  background-image: url(/images/search.svg);
+}
