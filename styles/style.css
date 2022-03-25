@@ -2,11 +2,18 @@
   border: 1px solid red ;
 } */
 
+.page {
+  background-color: #F2F2F2;
+  font-family: 'PT Sans', Arial, Helvetica, sans-serif;
+}
+
 .header {
   background-color: #000;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  height: 90px;
+  padding: 0 20%;
 }
 
 .logo {
@@ -16,7 +23,7 @@
 .logo__span {
   background-color: #4A90E2;
   border-radius: 3px;
-  margin: 3 5;
+  padding: 3px 5px;
 }
 
 .menu__list {
@@ -24,10 +31,40 @@
   padding: 0;
   margin: 0;
   display: flex;
+  justify-content: space-between;
+  width: 368px;
+  height: 18px;
+}
+
+.menu__item {
+  text-decoration: none;
+  color: #fff;
 }
 
 .search {
   width: 16px;
   height: 17px;
   background-image: url(/images/search.svg);
+}
+
+
+.cards {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.other_card {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 370px;
+  height: 265px;
+  margin: 30px;
+}
+
+.card__image {
+  border-radius: 3px;
 }
