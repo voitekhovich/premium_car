@@ -8,6 +8,8 @@
   <link rel="stylesheet" href="/styles/normalize.css">
   <link rel="stylesheet" href="/styles/style.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
+  <link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
   <title>Premium Car</title>
 </head>
 
@@ -16,55 +18,70 @@
   <div class="page">
 
     <header class="header">
-      <div class="logo">
-        <h1 class="logo__title">Premium <span class="logo__span">CAR</span></h1>
+      <div class="header__content content_width">
+        <div class="logo">
+          <img src="./images/Premium.svg" alt="logo" class="logo_img">
+          <span class="logo__span">CAR</span>
+        </div>
+        <nav class="menu">
+          <ul class="menu__list">
+            <li><a class="menu__item" href="#">Home</a></li>
+            <li><a class="menu__item" href="#">Recipes</a></li>
+            <li><a class="menu__item" href="#">Article</a></li>
+            <li><a class="menu__item" href="#">Contact</a></li>
+            <li><a class="menu__item" href="#">Purchase</a></li>
+          </ul>
+        </nav>
+        <div class="search"></div>
       </div>
-      <nav class="menu">
-        <ul class="menu__list">
-          <li><a class="menu__item" href="#">Home</a></li>
-          <li><a class="menu__item" href="#">Recipes</a></li>
-          <li><a class="menu__item" href="#">Article</a></li>
-          <li><a class="menu__item" href="#">Contact</a></li>
-          <li><a class="menu__item" href="#">Purchase</a></li>
-        </ul>
-      </nav>
-      <div class="search"></div>
     </header>
 
-    <main class="main">
+    <main class="main content_width">
       <section class="cards">
+        
         <div class="main_card">
-          <div class="card">
-            <img src="./images/main_car.png" alt="car" class="card__image">
-            <div class="card__button">Vehicle</div>
-            <p class="card__date">Rickie Baroch - June 6, 2019</p>
-            <h2 class="card__title">One of Saturn’s largest rings may be newer than anyone</h2>
+          <div class="card main_card_size">
+            <img class="card__img" src="./images/main_car.png" alt="car">
+            <p class="card__button">Vehicle</p>
+            <div class="card__content card__content_big">
+              <p class="card__date tipography">Rickie Baroch - June 6, 2019</p>
+              <h2 class="card__title card__title_big tipography">One of Saturn’s largest rings may be newer than anyone</h2>
+            </div>
           </div>
         </div>
-        <div class="other_card">
+
+        <div class="other_cards">
           <div class="card">
-            <img src="./images/car1.png" alt="car" class="card__image">
-            <div class="card__button">Vehicle</div>
-            <p class="card__date">Rickie Baroch - June 6, 2019</p>
-            <h2 class="card__title">One of Saturn’s largest rings may be newer than anyone</h2>
+            <img class="card__img" src="./images/car1.png" alt="car">
+            <p class="card__button">Vehicle</p>
+            <div class="card__content">
+              <p class="card__date tipography">Rickie Baroch - June 6, 2019</p>
+              <h2 class="card__title tipography">One of Saturn’s largest rings may be newer than anyone</h2>
+            </div>
           </div>
           <div class="card">
-            <img src="./images/car2.png" alt="car" class="card__image">
-            <div class="card__button">Vehicle</div>
-            <p class="card__date">Rickie Baroch - June 6, 2019</p>
-            <h2 class="card__title">One of Saturn’s largest rings may be newer than anyone</h2>
+            <img class="card__img" src="./images/car2.png" alt="car">
+            <p class="card__button">Vehicle</p>
+            <div class="card__content">
+              <p class="card__date tipography">Rickie Baroch - June 6, 2019</p>
+              <h2 class="card__title tipography">One of Saturn’s largest rings may be newer than anyone</h2>
+            </div>
           </div>
           <div class="card">
-            <img src="./images/car3.png" alt="car" class="card__image">
-            <div class="card__button">Vehicle</div>
-            <p class="card__date">Rickie Baroch - June 6, 2019</p>
-            <h2 class="card__title">One of Saturn’s largest rings may be newer than anyone</h2>
+            <img class="card__img" src="./images/car3.png" alt="car">
+            <p class="card__button">Vehicle</p>
+            <div class="card__content">
+              <p class="card__date tipography">Rickie Baroch - June 6, 2019</p>
+              <h2 class="card__title tipography">One of Saturn’s largest rings may be newer than anyone</h2>
+            </div>
           </div>
           <div class="card">
-            <img src="./images/car4.png" alt="car" class="card__image">
-            <div class="card__button">Vehicle</div>
-            <p class="card__date">Rickie Baroch - June 6, 2019</p>
-            <h2 class="card__title">One of Saturn’s largest rings may be newer than anyone</h2>
+            <img class="card__img" src="./images/car4.png" alt="car">
+            <p class="card__button">Vehicle</p>
+            <div class="card__content">
+              <p class="card__date tipography">Rickie Baroch - June 6, 2019</p>
+              <h2 class="card__title tipography">One of Saturn’s largest rings may be newer than anyone</h2>
+            </div>
           </div>
         </div>
       </section>
