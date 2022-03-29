@@ -12,6 +12,27 @@
   width: 1170px;
 }
 
+.text {
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+.button {
+  width: 62px;
+  height: 22px;
+  background-color: #4A90E2;
+  padding: 4px 12px 2px;
+  border-radius: 3px;
+  box-sizing: border-box;
+  text-decoration: none;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+}
+
+
 .header {
   background-color: #000;
   height: 90px;
@@ -27,7 +48,7 @@
   align-items: center;
 }
 
-.logo {}
+/* .logo {} */
 
 .logo__span {
   background-color: #4A90E2;
@@ -68,23 +89,14 @@
   margin: 0 auto;
 }
 
-.tipography {
-  color: #fff;
-  margin: 0;
-  padding: 0;
-}
 
 .cards {
   display: flex;
   justify-content: space-between;
-  margin-top: 30px;
 }
 
-.other_cards {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  margin-left: 30px;
+.cards_islands {
+  margin-top: 30px;
 }
 
 .card {
@@ -96,13 +108,27 @@
   overflow: hidden;
 }
 
-.main_card_size {
+.card_l {
   height: 560px;
+  margin-bottom: 0px;
+}
+
+.other_cards {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-left: 30px;
 }
 
 .card__img {
   display: block;
   width: 100%;
+}
+
+.card__button {
+  position: absolute;
+  top: 30px;
+  left: 20px;
 }
 
 .card__content {
@@ -111,12 +137,16 @@
   left: 0;
   background: linear-gradient(180deg, rgba(0, 0, 0, 7.5e-05) 0%, rgba(0, 0, 0, 0.75) 82.82%);
   height: 165px;
+  margin-top: -165px;
   display: flex;
   flex-direction: column;
   justify-content: end;
-  /* padding-left: 20px; */
-  /* padding-bottom: 30px; */
   width: 100%;
+}
+
+.card__content_l {
+  height: 188px;
+  margin-top: -180px;
 }
 
 .card__date {
@@ -129,36 +159,16 @@
 
 .card__title {
   width: 265px;
-  display: flex;
   font-size: 20px;
   font-weight: 700;
   line-height: 30px;
   margin: 0 0 23px 20px;
 }
 
-.card__content_big {
-  height: 188px;
-}
-
-.card__title_big {
+.card__title_l {
   width: 363px;
   font-size: 26px;
   line-height: 36px;
-}
-
-.card__button {
-  text-decoration: none;
-  position: absolute;
-  top: 30px;
-  left: 20px;
-  background-color: #4A90E2;
-  color: #fff;
-  padding: 4px 12px 2px;
-  border-radius: 3px;
-  font-size: 12px;
-  line-height: 16px;
-  font-weight: 400;
-  margin: 0;
 }
 
 
@@ -202,9 +212,6 @@
 
 .item__button {
   position: static;
-  width: 62px;
-  height: 22px;
-  box-sizing: border-box;
 }
 
 .item__title {
